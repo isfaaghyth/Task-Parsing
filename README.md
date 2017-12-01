@@ -51,7 +51,7 @@ with this;
 #### getdata.php
 ```php
    include_once 'koneksi.php';
-   $kueriMahasiswa = "SELECT id,nama,nim,prodi FROM mahasiswa";
+   $kueriMahasiswa = "SELECT nama,nim,prodi FROM mahasiswa";
    $connMahasiswa = $dbConn->query($kueriMahasiswa);
 
    $results = [];
