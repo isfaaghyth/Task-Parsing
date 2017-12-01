@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     /*
     * URL untuk memanggil json
+    * @url: 10.0.2.2 = jika di debug melalui emulator
+    * @url: 192.168.**.** = gunakan ip lokal jika di debug melalui device
     * */
     private final static String URL = "http://10.0.2.2/moprojson/getdata.php";
     private ArrayList<HashMap<String, String>> datas; //menampung data dari json
